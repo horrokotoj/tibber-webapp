@@ -1,0 +1,8 @@
+.currentPrice {
+	display: column;
+	text-align: center;
+}
+
+#highPrice {
+	color: red;
+}

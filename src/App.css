@@ -1,0 +1,63 @@
+.App {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.separationButton {
+	height: 50px;
+	width: 150px;
+	margin: 10px;
+	background-color: blueviolet;
+	color: black;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 15px;
+}
+
+.chartContainer {
+	height: 400px;
+	width: 800px;
+	align-self: center;
+}
+
+@media only screen and (max-width: 900px) {
+	.chartContainer {
+		width: 600px;
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.chartContainer {
+		width: 400px;
+		height: 200px;
+	}
+
+	#join {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.chartContainer {
+		width: 350px;
+		height: 200px;
+	}
+
+	#join {
+		height: 250px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.chartContainer {
+		width: 250px;
+		height: 200px;
+	}
+}
